@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A8FC5C215D123E100073C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FC5C115D123E100073C85 /* UIKit.framework */; };
+		5A8FC5C415D123E100073C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FC5C315D123E100073C85 /* Foundation.framework */; };
+		5A8FC5C615D123E100073C85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FC5C515D123E100073C85 /* CoreGraphics.framework */; };
+		5A8FC5C815D123E100073C85 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FC5C715D123E100073C85 /* GLKit.framework */; };
+		5A8FC5CA15D123E100073C85 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FC5C915D123E100073C85 /* OpenGLES.framework */; };
+		5A8FC5D015D123E100073C85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A8FC5CE15D123E100073C85 /* InfoPlist.strings */; };
+		5A8FC5D215D123E100073C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8FC5D115D123E100073C85 /* main.m */; };
+		5A8FC5D615D123E100073C85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8FC5D515D123E100073C85 /* AppDelegate.m */; };
+		5A8FC5D915D123E100073C85 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8FC5D715D123E100073C85 /* MainStoryboard_iPhone.storyboard */; };
+		5A8FC5DC15D123E100073C85 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8FC5DA15D123E100073C85 /* MainStoryboard_iPad.storyboard */; };
+		5A8FC5DE15D123E100073C85 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5A8FC5DD15D123E100073C85 /* Shader.fsh */; };
+		5A8FC5E015D123E100073C85 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 5A8FC5DF15D123E100073C85 /* Shader.vsh */; };
+		5A8FC5E315D123E100073C85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8FC5E215D123E100073C85 /* ViewController.m */; };
+		5A8FC5EB15D123E100073C85 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FC5EA15D123E100073C85 /* SenTestingKit.framework */; };
+		5A8FC5EC15D123E100073C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FC5C115D123E100073C85 /* UIKit.framework */; };
+		5A8FC5ED15D123E100073C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FC5C315D123E100073C85 /* Foundation.framework */; };
+		5A8FC5F515D123E100073C85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A8FC5F315D123E100073C85 /* InfoPlist.strings */; };
+		5A8FC5F815D123E100073C85 /* ClimberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8FC5F715D123E100073C85 /* ClimberTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A8FC5EE15D123E100073C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8FC5B415D123E100073C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A8FC5BC15D123E100073C85;
+			remoteInfo = Climber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A8FC5BD15D123E100073C85 /* Climber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Climber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8FC5C115D123E100073C85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A8FC5C315D123E100073C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A8FC5C515D123E100073C85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A8FC5C715D123E100073C85 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		5A8FC5C915D123E100073C85 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5A8FC5CD15D123E100073C85 /* Climber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Climber-Info.plist"; sourceTree = "<group>"; };
+		5A8FC5CF15D123E100073C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A8FC5D115D123E100073C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A8FC5D315D123E100073C85 /* Climber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Climber-Prefix.pch"; sourceTree = "<group>"; };
+		5A8FC5D415D123E100073C85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A8FC5D515D123E100073C85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A8FC5D815D123E100073C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5A8FC5DB15D123E100073C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5A8FC5DD15D123E100073C85 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		5A8FC5DF15D123E100073C85 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		5A8FC5E115D123E100073C85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A8FC5E215D123E100073C85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A8FC5E915D123E100073C85 /* ClimberTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimberTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8FC5EA15D123E100073C85 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A8FC5F215D123E100073C85 /* ClimberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClimberTests-Info.plist"; sourceTree = "<group>"; };
+		5A8FC5F415D123E100073C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A8FC5F615D123E100073C85 /* ClimberTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClimberTests.h; sourceTree = "<group>"; };
+		5A8FC5F715D123E100073C85 /* ClimberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClimberTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A8FC5BA15D123E100073C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8FC5C215D123E100073C85 /* UIKit.framework in Frameworks */,
+				5A8FC5C415D123E100073C85 /* Foundation.framework in Frameworks */,
+				5A8FC5C615D123E100073C85 /* CoreGraphics.framework in Frameworks */,
+				5A8FC5C815D123E100073C85 /* GLKit.framework in Frameworks */,
+				5A8FC5CA15D123E100073C85 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8FC5E515D123E100073C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8FC5EB15D123E100073C85 /* SenTestingKit.framework in Frameworks */,
+				5A8FC5EC15D123E100073C85 /* UIKit.framework in Frameworks */,
+				5A8FC5ED15D123E100073C85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A8FC5B215D123E100073C85 = {
+			isa = PBXGroup;
+			children = (
+				5A8FC5CB15D123E100073C85 /* Climber */,
+				5A8FC5F015D123E100073C85 /* ClimberTests */,
+				5A8FC5C015D123E100073C85 /* Frameworks */,
+				5A8FC5BE15D123E100073C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A8FC5BE15D123E100073C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A8FC5BD15D123E100073C85 /* Climber.app */,
+				5A8FC5E915D123E100073C85 /* ClimberTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A8FC5C015D123E100073C85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A8FC5C115D123E100073C85 /* UIKit.framework */,
+				5A8FC5C315D123E100073C85 /* Foundation.framework */,
+				5A8FC5C515D123E100073C85 /* CoreGraphics.framework */,
+				5A8FC5C715D123E100073C85 /* GLKit.framework */,
+				5A8FC5C915D123E100073C85 /* OpenGLES.framework */,
+				5A8FC5EA15D123E100073C85 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A8FC5CB15D123E100073C85 /* Climber */ = {
+			isa = PBXGroup;
+			children = (
+				5A8FC5D415D123E100073C85 /* AppDelegate.h */,
+				5A8FC5D515D123E100073C85 /* AppDelegate.m */,
+				5A8FC5D715D123E100073C85 /* MainStoryboard_iPhone.storyboard */,
+				5A8FC5DA15D123E100073C85 /* MainStoryboard_iPad.storyboard */,
+				5A8FC5DD15D123E100073C85 /* Shader.fsh */,
+				5A8FC5DF15D123E100073C85 /* Shader.vsh */,
+				5A8FC5E115D123E100073C85 /* ViewController.h */,
+				5A8FC5E215D123E100073C85 /* ViewController.m */,
+				5A8FC5CC15D123E100073C85 /* Supporting Files */,
+			);
+			path = Climber;
+			sourceTree = "<group>";
+		};
+		5A8FC5CC15D123E100073C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A8FC5CD15D123E100073C85 /* Climber-Info.plist */,
+				5A8FC5CE15D123E100073C85 /* InfoPlist.strings */,
+				5A8FC5D115D123E100073C85 /* main.m */,
+				5A8FC5D315D123E100073C85 /* Climber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A8FC5F015D123E100073C85 /* ClimberTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A8FC5F615D123E100073C85 /* ClimberTests.h */,
+				5A8FC5F715D123E100073C85 /* ClimberTests.m */,
+				5A8FC5F115D123E100073C85 /* Supporting Files */,
+			);
+			path = ClimberTests;
+			sourceTree = "<group>";
+		};
+		5A8FC5F115D123E100073C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A8FC5F215D123E100073C85 /* ClimberTests-Info.plist */,
+				5A8FC5F315D123E100073C85 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A8FC5BC15D123E100073C85 /* Climber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8FC5FB15D123E100073C85 /* Build configuration list for PBXNativeTarget "Climber" */;
+			buildPhases = (
+				5A8FC5B915D123E100073C85 /* Sources */,
+				5A8FC5BA15D123E100073C85 /* Frameworks */,
+				5A8FC5BB15D123E100073C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Climber;
+			productName = Climber;
+			productReference = 5A8FC5BD15D123E100073C85 /* Climber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A8FC5E815D123E100073C85 /* ClimberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8FC5FE15D123E100073C85 /* Build configuration list for PBXNativeTarget "ClimberTests" */;
+			buildPhases = (
+				5A8FC5E415D123E100073C85 /* Sources */,
+				5A8FC5E515D123E100073C85 /* Frameworks */,
+				5A8FC5E615D123E100073C85 /* Resources */,
+				5A8FC5E715D123E100073C85 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A8FC5EF15D123E100073C85 /* PBXTargetDependency */,
+			);
+			name = ClimberTests;
+			productName = ClimberTests;
+			productReference = 5A8FC5E915D123E100073C85 /* ClimberTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A8FC5B415D123E100073C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Eric Johnson";
+			};
+			buildConfigurationList = 5A8FC5B715D123E100073C85 /* Build configuration list for PBXProject "Climber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A8FC5B215D123E100073C85;
+			productRefGroup = 5A8FC5BE15D123E100073C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A8FC5BC15D123E100073C85 /* Climber */,
+				5A8FC5E815D123E100073C85 /* ClimberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A8FC5BB15D123E100073C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8FC5D015D123E100073C85 /* InfoPlist.strings in Resources */,
+				5A8FC5D915D123E100073C85 /* MainStoryboard_iPhone.storyboard in Resources */,
+				5A8FC5DC15D123E100073C85 /* MainStoryboard_iPad.storyboard in Resources */,
+				5A8FC5DE15D123E100073C85 /* Shader.fsh in Resources */,
+				5A8FC5E015D123E100073C85 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8FC5E615D123E100073C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8FC5F515D123E100073C85 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A8FC5E715D123E100073C85 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A8FC5B915D123E100073C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8FC5D215D123E100073C85 /* main.m in Sources */,
+				5A8FC5D615D123E100073C85 /* AppDelegate.m in Sources */,
+				5A8FC5E315D123E100073C85 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8FC5E415D123E100073C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8FC5F815D123E100073C85 /* ClimberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A8FC5EF15D123E100073C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A8FC5BC15D123E100073C85 /* Climber */;
+			targetProxy = 5A8FC5EE15D123E100073C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A8FC5CE15D123E100073C85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8FC5CF15D123E100073C85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A8FC5D715D123E100073C85 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8FC5D815D123E100073C85 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5A8FC5DA15D123E100073C85 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8FC5DB15D123E100073C85 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5A8FC5F315D123E100073C85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8FC5F415D123E100073C85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A8FC5F915D123E100073C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A8FC5FA15D123E100073C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A8FC5FC15D123E100073C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Climber/Climber-Prefix.pch";
+				INFOPLIST_FILE = "Climber/Climber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A8FC5FD15D123E100073C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Climber/Climber-Prefix.pch";
+				INFOPLIST_FILE = "Climber/Climber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A8FC5FF15D123E100073C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Climber.app/Climber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Climber/Climber-Prefix.pch";
+				INFOPLIST_FILE = "ClimberTests/ClimberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5A8FC60015D123E100073C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Climber.app/Climber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Climber/Climber-Prefix.pch";
+				INFOPLIST_FILE = "ClimberTests/ClimberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A8FC5B715D123E100073C85 /* Build configuration list for PBXProject "Climber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8FC5F915D123E100073C85 /* Debug */,
+				5A8FC5FA15D123E100073C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8FC5FB15D123E100073C85 /* Build configuration list for PBXNativeTarget "Climber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8FC5FC15D123E100073C85 /* Debug */,
+				5A8FC5FD15D123E100073C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A8FC5FE15D123E100073C85 /* Build configuration list for PBXNativeTarget "ClimberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8FC5FF15D123E100073C85 /* Debug */,
+				5A8FC60015D123E100073C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A8FC5B415D123E100073C85 /* Project object */;
+}
